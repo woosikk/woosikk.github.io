@@ -3997,3 +3997,11 @@ input, select, textarea {
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
+
+	.invisible-easteregg {
+		opacity: 0;
+		transition: opacity 0.3s ease;
+	}
+    .invisible-easteregg:hover {
+		opacity: 0.2;
+	}
